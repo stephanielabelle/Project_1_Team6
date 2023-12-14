@@ -55,7 +55,7 @@ I did my analysis to showcases mean and median price per night based on each nei
 3:Peformed normaltest to determie is mean or median is best measure as central tendency.
 
 
-2:Count by price range (Groups ranging from min$50 - max$1200, $200 increments by using bins. Repeated within each neighborhood group. Properties for $99/per night is owned by 3505 individuals and $1100-1200/per night is owned by 7223 individuals. This data in not litmited to NYC dataset. 
+2:Count by price range (Groups ranging from min$50 - max$1200, $200 increments by using bins. Repeated within each neighborhood group. Properties for $99/per night is owned by 3505 individuals and $1100-1200/per night is owned by 7223 individuals. This data is litmited to NYC dataset. 
 
 
 
