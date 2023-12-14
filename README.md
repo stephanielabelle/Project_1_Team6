@@ -1,10 +1,16 @@
-# Project_1_Team6
-project 1 team 6
+# NYC AirBnB Dataset
+##Project 1 - Group 6
 
-We got the airbnb dataset from kaggle.com. 
-We chose the airbnb data because it allowed us to implement a lot of the tools learned in the classroom (cleaning, mapping, plotting, API etc.).
-These days all are looking for places to go for vacations, and the first thing we think about is a reasonable place to stay. By analysing this dataset we wanted an understanding of relationships that effect rental price and renter satisfaction in an AirBnB rental.
+Since the first AirBnB property hosted guests in [2007](https://news.airbnb.com/about-us/#:~:text=Airbnb%20was%20born%20in%202007,every%20country%20across%20the%20globe.), AirBnB has been used around the world as an alternative to traditional hotels.  New York City, as a major tourist destination in the USA, has thousands of AirBnB rentals available at a variety of price points, room types, and locations.  
 
+In this project we utilized an airBnB dataset from [kaggle.com](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata). This dataset allowed us to implement a lot of the tools learned in the classroom such as data cleaning, matplotlib, scipy.stats, hvplot, and APIs.
+By analysing this dataset we wanted an understanding:
+  1. How NYC AirBnB rentals differ from one another in their listing parameters? 
+  2. What listing parameters that have an effect on rental price and renter satisfaction?
+  3. Where are the listings that are both high rated and most expensive?
+  4. Do high rated/ most expensive listings different in location from high rated but low cost?
+     
+### Data Cleaning
 We have cleaned the raw dataset with the following steps:
 
 - Dropped duplicates in ‘id’ and kept only one entry, since all duplicates had the same information.
@@ -15,7 +21,45 @@ We have cleaned the raw dataset with the following steps:
 - Filling the column ‘service fee’ empty cells with 0 so that it does not give NaN when we do calculations.
 - Changed the datatype of the ‘last review’ column to datetime (it was an object).
 
+### Whole Population Data Overview
+1. Count of Rentals by Neighbourhood Group
+  Question: How are the properties distributed within each neighbourhood group (borough)?
+  Conclusion: The most properties are within Brooklyn and Manhattan.
+2. Count of Rentals by Cancellation Policy
+  Question: How are the cancellation policies distributed?
+  Conclusion: Each cancellation policy is almost equally represented in this dataset.
+3. Percent of Rentals by Rating
+  Question: How are the ratings distributed in this dataset?
+  Conclusion: Rating 2-5 were equally represented at ~23%, and Rating-1 made up only 8.5%.
+4. Percent of Rentals by Room Type
+  Question: How are room types distributed in this dataset?
+  Conclusion: The majority of properties are within the Entire Home and Private Room categories.
+5. Service Fee based on Price
+  Question: How does Service Fee change with Price?
+  Conclusion: The service fee is equal to 20% of the price.
 
+Laarnie 
+Gurans
+
+### Analysis of Price Factors
+1. Price by Review Rating
+   Question: Are better rated properties more expensive in general?
+   Conclusion: The boxplots show no obvious relationship between "Ratings" and "Price".
+2. Price by Host Verification
+  Question: Do properties with verified Hosts charge more than unverified hosts?
+  Conclusion: No obvious relationship between "Host Verification" and "Price".
+3. Price by Cancellation Policy
+  Question: Do prices change with a more strict cancellation policy?
+  Conclusion: No obvious change in price due to cancellation policy.
+4. Price by Construction Year
+  Question: Do newer builds charge more for AirBnB rentals?
+  Conclusion: Newer builds do not charge more for AirBnB rentals.
+5. Price by Room Type
+  Question: Do different room types typically charge more for their property?
+  Conclusion: There is not a statistically significant difference on price by room type.
+6. Price by Room Type - Including Fixed Parameters
+  Question: By keeping 5 separte listing parameters constant, will we observe a parameters showing a statistically signficant effect on price?
+  Conclusion: We were not able to determine a statistically significant relationship affecting price.
 
 Divya:
 
