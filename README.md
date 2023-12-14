@@ -22,44 +22,44 @@ We have cleaned the raw dataset with the following steps:
 - Changed the datatype of the ‘last review’ column to datetime (it was an object).
 
 ### Whole Population Data Overview
-1. Count of Rentals by Neighbourhood Group
-  Question: How are the properties distributed within each neighbourhood group (borough)?
-  Conclusion: The most properties are within Brooklyn and Manhattan.
-2. Count of Rentals by Cancellation Policy
-  Question: How are the cancellation policies distributed?
-  Conclusion: Each cancellation policy is almost equally represented in this dataset.
-3. Percent of Rentals by Rating
-  Question: How are the ratings distributed in this dataset?
-  Conclusion: Rating 2-5 were equally represented at ~23%, and Rating-1 made up only 8.5%.
-4. Percent of Rentals by Room Type
-  Question: How are room types distributed in this dataset?
-  Conclusion: The majority of properties are within the Entire Home and Private Room categories.
-5. Service Fee based on Price
-  Question: How does Service Fee change with Price?
-  Conclusion: The service fee is equal to 20% of the price.
+1. Count of Rentals by Neighbourhood Group  
+  Question: How are the properties distributed within each neighbourhood group (borough)?  
+  Conclusion: The most properties are within Brooklyn and Manhattan.  
+2. Count of Rentals by Cancellation Policy  
+  Question: How are the cancellation policies distributed?  
+  Conclusion: Each cancellation policy is almost equally represented in this dataset.  
+3. Percent of Rentals by Rating  
+  Question: How are the ratings distributed in this dataset?  
+  Conclusion: Rating 2-5 were equally represented at ~23%, and Rating-1 made up only 8.5%.  
+4. Percent of Rentals by Room Type  
+  Question: How are room types distributed in this dataset?  
+  Conclusion: The majority of properties are within the Entire Home and Private Room categories.  
+5. Service Fee based on Price  
+  Question: How does Service Fee change with Price?  
+  Conclusion: The service fee is equal to 20% of the price.  
 
-Laarnie 
-Gurans
-
+Laarnie   
+Gurans   
+ 
 ### Analysis of Price Factors
-1. Price by Review Rating
-   Question: Are better rated properties more expensive in general?
-   Conclusion: The boxplots show no obvious relationship between "Ratings" and "Price".
-2. Price by Host Verification
-  Question: Do properties with verified Hosts charge more than unverified hosts?
-  Conclusion: No obvious relationship between "Host Verification" and "Price".
-3. Price by Cancellation Policy
-  Question: Do prices change with a more strict cancellation policy?
-  Conclusion: No obvious change in price due to cancellation policy.
-4. Price by Construction Year
-  Question: Do newer builds charge more for AirBnB rentals?
-  Conclusion: Newer builds do not charge more for AirBnB rentals.
-5. Price by Room Type
-  Question: Do different room types typically charge more for their property?
-  Conclusion: There is not a statistically significant difference on price by room type.
-6. Price by Room Type - Including Fixed Parameters
-  Question: By keeping 5 separte listing parameters constant, will we observe a parameters showing a statistically signficant effect on price?
-  Conclusion: We were not able to determine a statistically significant relationship affecting price.
+1. Price by Review Rating  
+   Question: Are better rated properties more expensive in general?  
+   Conclusion: The boxplots show no obvious relationship between "Ratings" and "Price".  
+2. Price by Host Verification  
+  Question: Do properties with verified Hosts charge more than unverified hosts?  
+  Conclusion: No obvious relationship between "Host Verification" and "Price".  
+3. Price by Cancellation Policy  
+  Question: Do prices change with a more strict cancellation policy?  
+  Conclusion: No obvious change in price due to cancellation policy.  
+4. Price by Construction Year  
+  Question: Do newer builds charge more for AirBnB rentals?  
+  Conclusion: Newer builds do not charge more for AirBnB rentals.  
+5. Price by Room Type  
+  Question: Do different room types typically charge more for their property?  
+  Conclusion: There is not a statistically significant difference on price by room type.  
+6. Price by Room Type - Including Fixed Parameters  
+  Question: By keeping 5 separte listing parameters constant, will we observe a parameters showing a statistically signficant effect on price?  
+  Conclusion: We were not able to determine a statistically significant relationship affecting price.  
 
 Divya:
 
