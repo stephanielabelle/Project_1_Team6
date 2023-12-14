@@ -9,8 +9,13 @@ By analysing this dataset we wanted to understand:
   2. What listing parameters that have an effect on rental price and renter satisfaction?
   3. Where are the listings that are both high rated and most expensive?
   4. Do high rated but low cost listings differ in location from high rated/high cost?
-     
+
+Our cleaned [csv file](Resources\cleaned_airbnb_data.csv) was utilized for all analysis.  It is located in the Resources folder.
+
 ### Data Cleaning
+
+The jupyter notebook [clean_data.ipynb](clean_data_ipynb) contains our data cleaning script. The uncleaned [Airbnb_Open_Data.csv](Resources\Airbnb_Open_Data.csv) file is located in the Resources folder.
+
 We have cleaned the raw dataset with the following steps:
 
 - Dropped duplicates in ‘id’ and kept only one entry, since all duplicates had the same information.
