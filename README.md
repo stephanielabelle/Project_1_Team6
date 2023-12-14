@@ -43,9 +43,25 @@ We have cleaned the raw dataset with the following steps:
   Question: How does Service Fee change with Price?  
   Conclusion: The service fee is equal to 20% of the price.  
 
-Laarnie   
-Gurans   
- 
+Laarnie  
+
+
+Gurans:
+###Central Tendency
+
+1:Airbnb offers affordable accomodations with adventurous nature. Our dataset is based on NYC Airbnb with thousands of properties. For better understanding of which neighbourhood has higher or lower rates per night.
+I did my analysis to showcases mean and median price per night based on each neighbourhood. Analysis displayed roughly $20-25/night for mean and median. On bar graph plotted a slight difference can be seen only for Bronx compared to remaning negihbourhood.
+
+3:Peformed normaltest to determie is mean or median is best measure as central tendency.
+
+
+2:Count by price range (Groups ranging from min$50 - max$1200, $200 increments by using bins. Repeated within each neighborhood group. Properties for $99/per night is owned by 3505 individuals and $1100-1200/per night is owned by 7223 individuals. This data in not litmited to NYC dataset. 
+
+
+
+
+
+
 ### Analysis of Price Factors
 1. Price by Review Rating  
    Question: Are better rated properties more expensive in general?  
