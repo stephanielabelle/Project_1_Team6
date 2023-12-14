@@ -3,12 +3,12 @@
 
 Since the first AirBnB property hosted guests in [2007](https://news.airbnb.com/about-us/#:~:text=Airbnb%20was%20born%20in%202007,every%20country%20across%20the%20globe.), AirBnB has been used around the world as an alternative to traditional hotels.  New York City, as a major tourist destination in the USA, has thousands of AirBnB rentals available at a variety of price points, room types, and locations.  
 
-In this project we utilized an airBnB dataset from [kaggle.com](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata). This dataset allowed us to implement a lot of the tools learned in the classroom such as data cleaning, matplotlib, scipy.stats, hvplot, and APIs.
-By analysing this dataset we wanted an understanding:
+In this project we utilized an AirBnB dataset from [kaggle.com](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata). This dataset allowed us to implement a lot of the tools learned in the classroom such as data cleaning, matplotlib, scipy.stats, hvplot, and APIs.
+By analysing this dataset we wanted to understand:
   1. How NYC AirBnB rentals differ from one another in their listing parameters? 
   2. What listing parameters that have an effect on rental price and renter satisfaction?
   3. Where are the listings that are both high rated and most expensive?
-  4. Do high rated/ most expensive listings different in location from high rated but low cost?
+  4. Do high rated but low cost listings differ in location from high rated/high cost?
      
 ### Data Cleaning
 We have cleaned the raw dataset with the following steps:
