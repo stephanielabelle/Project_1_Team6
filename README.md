@@ -6,7 +6,7 @@ Since the first AirBnB property hosted guests in [2007](https://news.airbnb.com/
 In this project we utilized an AirBnB dataset from [kaggle.com](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata). This dataset allowed us to implement a lot of the tools learned in the classroom such as data cleaning, matplotlib, scipy.stats, hvplot, and APIs.
 By analysing this dataset we wanted to understand:
   1. How NYC AirBnB rentals differ from one another in their listing parameters? 
-  2. What listing parameters that have an effect on rental price and renter satisfaction?
+  2. What listing parameters that have an effect on rental price?
   3. Where are the listings that are both high rated and most expensive?
   4. Do high rated but low cost listings differ in location from high rated/high cost?
 
@@ -27,19 +27,19 @@ We have cleaned the raw dataset with the following steps:
 - Changed the datatype of the ‘last review’ column to datetime (it was an object).
 
 ### Whole Population Data Overview
-1. Count of Rentals by Neighbourhood Group  
+1. Count of Rentals by [Neighbourhood Group](steph_price_and_population_overview.ipynb)    
   Question: How are the properties distributed within each neighbourhood group (borough)?  
   Conclusion: The most properties are within Brooklyn and Manhattan.  
-2. Count of Rentals by Cancellation Policy  
+2. Count of Rentals by [Cancellation Policy](steph_price_and_population_overview.ipynb)  
   Question: How are the cancellation policies distributed?  
   Conclusion: Each cancellation policy is almost equally represented in this dataset.  
-3. Percent of Rentals by Rating  
+3. Percent of Rentals by [Rating](steph_price_and_population_overview.ipynb)   
   Question: How are the ratings distributed in this dataset?  
   Conclusion: Rating 2-5 were equally represented at ~23%, and Rating-1 made up only 8.5%.  
-4. Percent of Rentals by Room Type  
+4. Percent of Rentals by [Room Type](steph_price_and_population_overview.ipynb)   
   Question: How are room types distributed in this dataset?  
   Conclusion: The majority of properties are within the Entire Home and Private Room categories.  
-5. Service Fee based on Price  
+5. Service Fee based on [Price](steph_price_and_population_overview.ipynb)     
   Question: How does Service Fee change with Price?  
   Conclusion: The service fee is equal to 20% of the price.  
 
@@ -59,7 +59,7 @@ I did my analysis to showcases mean and median price per night based on each nei
 
 
 
-### Analysis of Price Factors
+### [Analysis of Price Factors](steph_price_and_population_overview.ipynb)
 1. Price by Review Rating  
    Question: Are better rated properties more expensive in general?  
    Conclusion: The boxplots show no obvious relationship between "Ratings" and "Price".  
