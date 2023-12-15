@@ -1,5 +1,5 @@
 # NYC AirBnB Dataset
-## Project 1 - Group 6
+## Project 1 - Group 6 
 
 Since the first AirBnB property hosted guests in [2007](https://news.airbnb.com/about-us/#:~:text=Airbnb%20was%20born%20in%202007,every%20country%20across%20the%20globe.), AirBnB has been used around the world as an alternative to traditional hotels.  New York City, as a major tourist destination in the USA, has thousands of AirBnB rentals available at a variety of price points, room types, and locations.  
 
