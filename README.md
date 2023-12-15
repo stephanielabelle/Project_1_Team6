@@ -47,18 +47,15 @@ Laarnie
 
 
 Gurans:
-###Central Tendency
 
-1:Airbnb offers affordable accomodations with adventurous nature. Our dataset is based on NYC Airbnb with thousands of properties. For better understanding of which neighbourhood has higher or lower rates per night.
+##Central Tendency
+
+1: Airbnb offers affordable accomodations with adventurous nature. Our dataset is based on NYC Airbnb with thousands of properties. For better understanding of which neighbourhood has higher or lower rates per night.
 I did my analysis to showcases mean and median price per night based on each neighbourhood. Analysis displayed roughly $20-25/night for mean and median. On bar graph plotted a slight difference can be seen only for Bronx compared to remaning negihbourhood.
 
-3:Peformed normaltest to determie is mean or median is best measure as central tendency.
+2: I also performed normal test for each neighbourhood/since all group has p-value less than 5 . so you can use mean or median as a measure of central tendency
 
-
-2:Count by price range (Groups ranging from min$50 - max$1200, $200 increments by using bins. Repeated within each neighborhood group. Properties for $99/per night is owned by 3505 individuals and $1100-1200/per night is owned by 7223 individuals. This data is litmited to NYC dataset. 
-
-
-
+3: Count by price range (Groups ranging from min$50 - max$1200, $200 increments by using bins. Repeated within each neighborhood group. Properties for $99/per night is owned by 3505 individuals and $1100-1200/per night is owned by 7223 individuals. This data is litmited to NYC dataset. 
 
 
 
